@@ -1,0 +1,36 @@
+.footer-bg-container{
+    background-color: #3a588a;
+    height: auto;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-title{
+    color: #1b1839;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.footer-name{
+    color: #f53b11;
+    font-size: 22px;
+    font-family: 'Gill Sans';
+    padding: 5px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-name{
+        text-align: center;
+    }
+}

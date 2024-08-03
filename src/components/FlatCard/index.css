@@ -1,0 +1,53 @@
+.flat-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.flat-img{
+    width: 200px;
+    height: 200px;
+}
+.flat-title{
+    color: rgb(37, 37, 62);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.flat-description{
+    color: rgb(37, 37, 62);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+span{
+    color: rgb(37, 37, 62);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.flat-price{
+    color: rgb(205, 31, 31);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flat-book-button{
+    background-color: rgb(57, 31, 205);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+
+}
+.flat-button-container{
+    display: flex;
+}

@@ -1,0 +1,70 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.cart-heading{
+    color: rgb(24, 72, 217);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart-title{
+    color: rgb(45, 45, 83);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.cart-price{
+    color: rgb(224, 38, 38);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.cart-quantity{
+    color: rgb(45, 45, 83);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.remove-button{
+    background-color: rgb(24, 72, 217);
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.bar-line{
+    background-color: rgb(24, 72, 217);
+    height: 3px;
+    width: 90%;
+    margin-left: 50px;
+}
+.total{
+    color: rgb(45, 45, 83);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.buttons{
+    border: 2px 2px 2px 2px solid rgb(24, 72, 217);
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .bar-line{
+        margin-left: 15px;
+    }
+}
